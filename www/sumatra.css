@@ -2,6 +2,8 @@ body {
 	margin: 0px 0px 20px 0px;
 	background-color: #ffffff;
 	font-family: Verdana, Arial, sans-serif;
+    background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-color:transparent;
 }
 a {    text-decoration: underline;  font-weight: bold;}
 a:link {    color: #000066;}
@@ -14,8 +16,8 @@ center { font-size: small; }
 #container { line-height: 140%; }
 
 #banner {
-  color: #FF4000;
-  background-color: #fff100;
+  color: black;
+  background-color: none;
   text-align: left;
   padding-top: 15px;
   padding-left: 15px;
@@ -30,7 +32,7 @@ center { font-size: small; }
 .content p { color: #333; font-size: small;    font-weight: normal;    line-height: 150%;    text-align: left;    margin-bottom: 10px;}
 .content blockquote {    line-height: 150%;}
 .content li { line-height: 150%;}
-.content h2 { color: #ff4000; font-family: 'Trebuchet MS', Verdana, sans-serif;
+.content h2 { color: #fff; font-family: 'Trebuchet MS', Verdana, sans-serif;
               font-size: medium; text-align: left; font-weight: bold; margin-bottom: 10px; }
 
 col, colgroup, table, tbody, td, tfoot, th, thead, tr
@@ -66,9 +68,9 @@ padding:0;
 
 #ddcolortabs a{
 float:left;
-color: #FF4000;
+color: #fff;
 /* background: #678b3f no-repeat left top; */
-background: #fff100;
+background: black;
 
 margin:0 2px 0 0;
 padding:0 0 1px 3px;
